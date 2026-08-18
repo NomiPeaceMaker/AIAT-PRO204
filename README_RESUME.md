@@ -1,11 +1,19 @@
 # Simple PHP Resume Site
 
-Run a local PHP server in the project folder:
+You can run this as a static HTML/JS site. Options:
+
+- Using Python (built-in simple server):
 
 ```bash
-php -S localhost:8000
+python -m http.server 8000
 ```
 
-Open http://localhost:8000 in your browser.
+- Or using Node (http-server):
+
+```bash
+npx http-server -p 8000
+```
+
+Then open http://localhost:8000 in your browser.
 
 Edit `resume.json` to update your name, contact, experience, and skills.

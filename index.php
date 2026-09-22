@@ -74,7 +74,7 @@ $contacts = $pdo->query('SELECT * FROM contacts ORDER BY id DESC')->fetchAll();
     <div class="container">
         <header class="header">
             <h1>PHP CRUD Website</h1>
-            <p>Database-ready HEHE contact manager with create, read, update, and delete actions.</p>
+            <p>Database-ready HEHE HAHAHAHAHAHAHAHA contact manager with create, read, update, and delete actions.</p>
         </header>
 
         <div class="status-card">
